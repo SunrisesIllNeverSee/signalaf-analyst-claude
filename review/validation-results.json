@@ -1,0 +1,91 @@
+{
+  "checked_at": "2026-10-10T07:20:48.580934+00:00",
+  "source_archive_unchanged": true,
+  "checks": {
+    "package_structure": "passed",
+    "relative_links_and_frontmatter": "passed",
+    "file_limits_and_secret_patterns": "passed; limited static scan, not a security certification",
+    "case_counts": {
+      "positive": 5,
+      "negative": 3
+    },
+    "source_provenance": {
+      "unchanged_files": 8,
+      "host_adapted_files": 5
+    },
+    "anonymous_initialize": {
+      "name": "sigrank-signalaf",
+      "title": "SigRank | SignalAF Analyst",
+      "version": "1.1.0",
+      "websiteUrl": "https://signalaf.com"
+    },
+    "live_tool_discovery": {
+      "tools": [
+        "compare_operators",
+        "get_field_stats",
+        "get_leaderboard",
+        "get_operator",
+        "report_beta_bug"
+      ],
+      "noauth": true,
+      "titles_present": true,
+      "read_write_separate": true
+    },
+    "four_live_read_tools": "passed; direct MCP requests, not Claude model execution",
+    "claude_cli": {
+      "version": "2.1.199 (Claude Code)",
+      "exit_code": 0,
+      "output": "Validating plugin manifest: <plugin-root>/.claude-plugin/plugin.json\n\n⚠ Found 5 warnings:\n\n  ❯ icon: Unknown field 'icon' (commonly seen in a VS Code/Cursor extension manifest). Claude Code ignores unrecognized fields at load time, so it's safe to keep.\n  ❯ documentationUrl: Unknown field 'documentationUrl'. Claude Code ignores it at load time.\n  ❯ supportUrl: Unknown field 'supportUrl'. Claude Code ignores it at load time.\n  ❯ privacyPolicyUrl: Unknown field 'privacyPolicyUrl'. Claude Code ignores it at load time.\n  ❯ termsOfServiceUrl: Unknown field 'termsOfServiceUrl'. Claude Code ignores it at load time.\n\n✔ Validation passed with warnings",
+      "directory_field_warnings": "Installed 2.1.199 predates directory listing-field support in 2.1.281. Fields retained per current official manifest documentation. Strict current-version and portal validation pending."
+    }
+  },
+  "tool_calls": [
+    {
+      "name": "get_leaderboard",
+      "arguments": {
+        "window": "all",
+        "view": "total",
+        "limit": 100
+      },
+      "status": "ok",
+      "returned_count": 22,
+      "total_eligible": 22,
+      "board_url": "https://signalaf.com/board/all"
+    },
+    {
+      "name": "get_operator",
+      "arguments": {
+        "codename": "signal-d4e0290661",
+        "window": "all",
+        "view": "total"
+      },
+      "status": "ok",
+      "comparable": null
+    },
+    {
+      "name": "compare_operators",
+      "arguments": {
+        "codename_a": "signal-d4e0290661",
+        "codename_b": "signal-3b92921881",
+        "window": "all",
+        "view": "total",
+        "cohort": "public"
+      },
+      "status": "ok",
+      "comparable": true
+    },
+    {
+      "name": "get_field_stats",
+      "arguments": {
+        "window": "all",
+        "view": "total",
+        "cohort": "public"
+      },
+      "status": "ok",
+      "comparable": null
+    }
+  ],
+  "support_email_sent": false,
+  "claude_host_tests": "pending",
+  "portal_validation": "pending"
+}

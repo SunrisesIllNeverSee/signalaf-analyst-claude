@@ -1,0 +1,86 @@
+{
+  "source_archive": "signalaf-analyst-0.1.31-public-review.zip",
+  "source_sha256": "c0ece8fc238a6ebc28591000326b9ccfff7c475265b8ab00893fa24a31f1f907",
+  "source_version": "0.1.31",
+  "claude_version": "0.1.1",
+  "files": [
+    {
+      "file": "assets/icon.png",
+      "status": "unchanged",
+      "source_sha256": "cff6c8dd353317ff870eb79cc41763ed8b03904e092b396f4dd1d955bef2413f",
+      "package_sha256": "cff6c8dd353317ff870eb79cc41763ed8b03904e092b396f4dd1d955bef2413f"
+    },
+    {
+      "file": "assets/logo.png",
+      "status": "unchanged",
+      "source_sha256": "81ff9ae6f6fbd6b5f96facc0ed1a73afba3927b8ef0ce3360087226a52808a31",
+      "package_sha256": "81ff9ae6f6fbd6b5f96facc0ed1a73afba3927b8ef0ce3360087226a52808a31"
+    },
+    {
+      "file": "skills/beta-troubleshooter/SKILL.md",
+      "status": "host-adapted",
+      "source_sha256": "0a3ecbc9c074580b6736cdbeeaa7849960369914ce272738df599d185ea20119",
+      "package_sha256": "66519842628c103494792bb8fd6bd717e76a23ffb5ee8dc28a69e5dd6b13b319"
+    },
+    {
+      "file": "skills/get-started/SKILL.md",
+      "status": "host-adapted",
+      "source_sha256": "19aad795ec1ab47ffc6b9ba8345bbaad6d22ad2d528617ef2fa948c10b605136",
+      "package_sha256": "4a3da197cbbd6d76c0dc04545f4029a0cd20040c11c34fbb63f721de6020abb4"
+    },
+    {
+      "file": "skills/sigrank-analyst/SKILL.md",
+      "status": "host-adapted",
+      "source_sha256": "387eb49735566593800630571c51458a4439e5b269c453162c387f7d321c91f4",
+      "package_sha256": "a5ce35da7c0805fb4529dc6fe7fff8bf3c3228f439922ead68049d3a44eedd58"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/archetypes.md",
+      "status": "unchanged",
+      "source_sha256": "01cd77b706053dca89d5e1535a3d10b71711d2217532f2f104d4673ce723fdb5",
+      "package_sha256": "01cd77b706053dca89d5e1535a3d10b71711d2217532f2f104d4673ce723fdb5"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/board.md",
+      "status": "host-adapted",
+      "source_sha256": "0505064becec7bf2f8f218f1a6d037de6d0a316711e404008854bdbb17221933",
+      "package_sha256": "39dbcf0ca3bb5739b931ea6c3e0933475834ddd57d5047aa5f28400149e95679"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/communication.md",
+      "status": "unchanged",
+      "source_sha256": "976abead5c82a3d61c6e0723d195ad27b2af8d421a938f432b4335817e5317b9",
+      "package_sha256": "976abead5c82a3d61c6e0723d195ad27b2af8d421a938f432b4335817e5317b9"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/compare-and-movement.md",
+      "status": "unchanged",
+      "source_sha256": "d809cecbd80989bb776881b61bfabc9ffd4244f220e5e94954a6962b1fa32329",
+      "package_sha256": "d809cecbd80989bb776881b61bfabc9ffd4244f220e5e94954a6962b1fa32329"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/insight-discovery.md",
+      "status": "unchanged",
+      "source_sha256": "c4622ec8bf8b99b8fc7b3e91f88c451cb4796391109ed398012d78c96ae5e792",
+      "package_sha256": "c4622ec8bf8b99b8fc7b3e91f88c451cb4796391109ed398012d78c96ae5e792"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/manual-preview.md",
+      "status": "unchanged",
+      "source_sha256": "95f025befba113d8af6ce6d4151875b30c01ab8f34c6291f45aa9e71375f5617",
+      "package_sha256": "95f025befba113d8af6ce6d4151875b30c01ab8f34c6291f45aa9e71375f5617"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/methodology-and-articles.md",
+      "status": "host-adapted",
+      "source_sha256": "e0f95188d64351ff50a9ab56fc6e7ab2f8df402620fd510f8688f1ab8ee388b2",
+      "package_sha256": "253c0548748882a4da2ec33cd7bd40ee7217872c6d6fb9dc75fe75459f61d997"
+    },
+    {
+      "file": "skills/sigrank-analyst/references/profile.md",
+      "status": "unchanged",
+      "source_sha256": "18f42a96ef64f9660773adbd06b38e11d998c199630fa09e5e3380142eed975c",
+      "package_sha256": "18f42a96ef64f9660773adbd06b38e11d998c199630fa09e5e3380142eed975c"
+    }
+  ]
+}

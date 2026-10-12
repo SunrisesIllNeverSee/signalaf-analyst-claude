@@ -1,0 +1,8 @@
+{
+  "mcpServers": {
+    "signalaf-analyst-public": {
+      "type": "http",
+      "url": "https://analyst.signalaf.com/api/plugins/sigrank/mcp"
+    }
+  }
+}
