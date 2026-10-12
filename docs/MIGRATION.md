@@ -19,6 +19,6 @@ There are no local MCP servers, measurement collectors, submission routes, hooks
 
 ## 0.1.1 (2026-10-12)
 
-- Four Degrees of Leverage moved from the homepage to https://signalaf.com/sigrank (also https://signalaf.com/wiki/four-degrees). Skill references now point there; no metric, rule or tool change.
+- Four Degrees of Leverage now referenced at its stable URL https://signalaf.com/wiki/four-degrees (the homepage placement varies with site redesigns). No metric, rule or tool change.
 - Added marketplace manifest and README install line; set `repository`.
 - Claude host test results recorded in `review/claude-host-results.md`.

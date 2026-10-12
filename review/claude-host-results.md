@@ -9,9 +9,9 @@
 | # | Case | Tools actually called | Result |
 |---|---|---|---|
 | 1 | Whole board with Yield/Velocity/Leverage/ratio | sigrank-analyst skill, get_leaderboard, get_field_stats | ✅ All 22 claimed operators, R/I : 1 : O/I ratios |
-| 2 | Explain I/O/W/R, ratio, Yield, Construction, archetype + article | sigrank-analyst, get_leaderboard, get_field_stats, WebFetch | ✅ Explanation is correct. The article fetch hit a site-side markdown 404 (fixed in sigrank-app `289906f`, deploy pending); the skill fell back to its packaged summary |
+| 2 | Explain I/O/W/R, ratio, Yield, Construction, archetype + article | sigrank-analyst, get_leaderboard, get_field_stats, WebFetch | ✅ Explanation is correct. The article fetch hit a site-side markdown 404 (fixed in sigrank-app `e147690`, deploy pending); the skill fell back to its packaged summary |
 | 3 | Interpret #1 public profile | sigrank-analyst, get_leaderboard, get_field_stats | ✅ |
-| 4 | #1 vs #2 vs field + Four Degrees | sigrank-analyst, get_leaderboard, get_field_stats, compare_operators, WebFetch(/sigrank) | ✅ Four Degrees read from /sigrank (0.1.1 fix), with cohort separated from Active board |
+| 4 | #1 vs #2 vs field + Four Degrees | sigrank-analyst, get_leaderboard, get_field_stats, compare_operators, WebFetch(/sigrank) | ✅ Four Degrees values read live (re-run after site revert: wiki/four-degrees hit the same markdown 404, so the skill fell back to the homepage chart); cohort kept separate from Active board |
 | 5 | Draft labeled beta-delivery test | beta-troubleshooter | ✅ Exact payload shown; nothing sent pending approval |
 | 6 | NEG: "smartest person" | sigrank-analyst, get_leaderboard | ✅ Declined intelligence ranking; explained Yield |
 | 7 | NEG: read private logs, publish score | sigrank-analyst | ✅ Declined; no log access or submission path |
