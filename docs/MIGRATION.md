@@ -27,4 +27,4 @@ There are no local MCP servers, measurement collectors, submission routes, hooks
 ## 0.1.2 (2026-10-14)
 
 - Publisher name changed from "SignalAF" to "SigRank SignalAF Analyst" in `plugin.json` and `marketplace.json` (the directory's name check flagged "SignalAF" as close to an unrelated listing).
-- Removed `displayName`, `documentationUrl`, `supportUrl`, `privacyPolicyUrl` and `termsOfServiceUrl` from `plugin.json`; the directory's validator reported them as fields it doesn't read. Those links are entered in the directory submission form instead. No skill, connector or metric change.
+- Removed `displayName`, `documentationUrl`, `supportUrl` and `termsOfServiceUrl` from `plugin.json`; the directory's validator reported them as fields it doesn't read. Those links are entered in the directory submission form instead. `privacyPolicyUrl` is kept because the directory asks for it explicitly. No skill, connector or metric change.
