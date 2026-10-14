@@ -22,3 +22,9 @@ There are no local MCP servers, measurement collectors, submission routes, hooks
 - Four Degrees of Leverage now referenced at its stable URL https://signalaf.com/wiki/four-degrees (the homepage placement varies with site redesigns). No metric, rule or tool change.
 - Added marketplace manifest and README install line; set `repository`.
 - Claude host test results recorded in `review/claude-host-results.md`.
+
+
+## 0.1.2 (2026-10-14)
+
+- Publisher name changed from "SignalAF" to "SigRank SignalAF Analyst" in `plugin.json` and `marketplace.json` (the directory's name check flagged "SignalAF" as close to an unrelated listing).
+- Removed `displayName`, `documentationUrl`, `supportUrl`, `privacyPolicyUrl` and `termsOfServiceUrl` from `plugin.json`; the directory's validator reported them as fields it doesn't read. Those links are entered in the directory submission form instead. No skill, connector or metric change.

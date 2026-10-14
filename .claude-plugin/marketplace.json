@@ -1,7 +1,7 @@
 {
   "name": "signalaf",
   "owner": {
-    "name": "SignalAF",
+    "name": "SigRank SignalAF Analyst",
     "email": "hello@signalaf.com",
     "url": "https://signalaf.com"
   },
@@ -10,7 +10,7 @@
       "name": "signalaf-analyst",
       "source": "./",
       "description": "Performative stats and benchmarks for AI users, not models. Explore SignalAF’s AI Operator Leaderboard, understand token-flow metrics and archetypes, and compare public operators in Claude.",
-      "version": "0.1.1"
+      "version": "0.1.2"
     }
   ],
   "description": "SignalAF plugins for Claude: explore the public SigRank AI Operator Leaderboard."

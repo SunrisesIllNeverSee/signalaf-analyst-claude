@@ -9,7 +9,7 @@ Models have benchmarks; here, AI operators take the spotlight. Explore the whole
 
 **Tokenpull measures → SigRank evaluates → SignalAF publishes.**
 
-This is a separate Claude release, version **0.1.1**, adapted from the submitted OpenAI **0.1.31** package. It supports Claude chat, Cowork, and Claude Code through three skills and one public remote connector.
+This is a separate Claude release, version **0.1.2**, adapted from the submitted OpenAI **0.1.31** package. It supports Claude chat, Cowork, and Claude Code through three skills and one public remote connector.
 
 ## Install
 

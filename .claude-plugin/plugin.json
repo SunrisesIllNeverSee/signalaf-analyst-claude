@@ -1,10 +1,9 @@
 {
   "name": "signalaf-analyst",
-  "displayName": "SigRank | SignalAF Analyst",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Performative stats and benchmarks for AI users, not models. Explore SignalAF’s AI Operator Leaderboard, understand token-flow metrics and archetypes, and compare public operators in Claude.",
   "author": {
-    "name": "SignalAF",
+    "name": "SigRank SignalAF Analyst",
     "email": "hello@signalaf.com",
     "url": "https://signalaf.com"
   },
@@ -19,9 +18,5 @@
     "data-analysis"
   ],
   "icon": "./assets/icon.png",
-  "documentationUrl": "https://signalaf.com/plugin",
-  "supportUrl": "https://signalaf.com/support",
-  "privacyPolicyUrl": "https://signalaf.com/privacy",
-  "termsOfServiceUrl": "https://signalaf.com/terms",
   "repository": "https://github.com/SunrisesIllNeverSee/signalaf-analyst-claude"
 }
