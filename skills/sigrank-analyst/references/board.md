@@ -1,5 +1,7 @@
 # Read the SignalAF board and field
 
+For the **July 31, 2026 proof-of-concept reference field**, use the [July guide](july-reference-field.md) and [public archive](https://signalaf.com/board/history). Its 1,642 profiles form a frozen comparison cohort, not today's live production population. Current MCP scopes below do not select that archive; all-time is not a historical dataset selector.
+
 A placement needs a **window, view, category, population, and sort metric**. The isolated SigRank | SignalAF MCP exposes `get_leaderboard` for `7d`, `30d`, `90d`, and `all` (all time). Its default is the website's **Total / All** selection of claimed operators sorted by published Yield. `view="platforms"` selects the broader **By platform / All** public selection; it can include unclaimed rows. A platform filter also selects that view. The response states `scope.view`, `scope.category`, `scope.population`, `sort_metric`, `board_url`, `total_eligible`, and per-row provenance. State those values when reporting ranks. Category `Operator` and `+ Outliers` are website controls, not supported tool scopes; inspect the rendered board when the user explicitly asks for them and do not relabel a tool result.
 
 For an unspecified overview, make **one explicit `window="all", view="total", limit=100` call** and label it Active / Total / All-time; do not rely on the MCP's 30-day default. This is a plugin presentation default, not a change to the website or MCP contract. Keep 7d/30d/90d available on request. Do not combine windows into a synthetic snapshot.

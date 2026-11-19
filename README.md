@@ -46,6 +46,14 @@ Claude Code 2.1.281 or later recognizes the directory icon and policy-link field
 
 The default board is **Active / Total / All-time**. An explicit request for a different supported period is handled separately. Current ranks and names come from the tools, not bundled examples. The welcome and explanations adapt to the question’s tone and depth. Archetypes describe operating patterns. Metrics describe observable AI operating structure, not intelligence, productivity, work quality, or personality.
 
+## July 2026 reference field
+
+The [July 31, 2026 historical field](https://signalaf.com/board/history) is the **proof-of-concept reference cohort**, separate from the live production leaderboard. Its 1,642 archived profiles support exploration of the scoring approach, operating-pattern comparisons and field distributions at a larger scale. The archive records 1,626 seeded profiles built from public tokscale numbers and 16 real profiles. Seeded records are not 1,626 verified first-party submissions; cohort size alone does not establish representativeness, measurement accuracy or validation of the model.
+
+The live Active board serves operators who submit their own data. A placement in the frozen reference field is an archived placement or explicitly hypothetical comparison, never a live published rank. The July snapshot alone cannot show improvement over time.
+
+**Current access:** skills can open the public archive page, but the four Analyst read tools do not yet accept an archive selector. `window="all"` means the current all-time board, not July 2026. [Archive integration design](docs/JULY-REFERENCE-FIELD.md) describes the proposed tool and chart support; it is not implemented by this documentation update.
+
 ## What connects and runs
 
 The only bundled connection is the anonymous Analyst MCP on **analyst.signalaf.com**. Claude calls four public read tools: `get_leaderboard`, `get_operator`, `compare_operators`, and `get_field_stats`. A fifth tool, `report_beta_bug`, sends a minimal report to **hello@signalaf.com** through SignalAF’s existing support service, only after you approve its displayed contents.
